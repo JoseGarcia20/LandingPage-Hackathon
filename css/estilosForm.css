@@ -1,0 +1,36 @@
+.button{
+    background-color: rgb(195, 213, 49);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px;
+  }
+  .button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  body{
+    background-color: #fff;
+    background-size: 100%;
+  }
+  #letraEncabezado{
+    font-family: 'Libre Baskerville', serif;
+  }
+  form{
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  #contenedorPrincipal{
+    display: flex;
+    border-radius: 15px;
+    border: 5px solid rgb(195, 213, 49);
+    background-color: #fff;
+    padding: 70px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+  }
